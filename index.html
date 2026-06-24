@@ -96,6 +96,19 @@
       max-width: 1100px;
       margin: 0 auto;
       padding: 116px 48px 96px;
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 64px;
+      align-items: center;
+    }
+    .hero-text { display: flex; flex-direction: column; }
+    .hero-photo {
+      width: 100%;
+      aspect-ratio: 390 / 601;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.08);
     }
     .hero-eyebrow {
       display: inline-flex;
@@ -522,7 +535,8 @@
     @media (max-width: 800px) {
       nav { padding: 0 20px; }
       .nav-links li:not(:last-child) { display: none; }
-      .hero { padding: 72px 20px 56px; }
+      .hero { padding: 72px 20px 56px; grid-template-columns: 1fr; }
+      .hero-photo { max-width: 200px; order: -1; }
       .creds-inner { padding: 20px; gap: 24px; }
       .wrap { padding: 64px 20px; }
       .topics-grid { grid-template-columns: 1fr; }
@@ -555,13 +569,16 @@
 
 <!-- HERO -->
 <div class="hero">
-  <div class="hero-eyebrow">VP, Technology · Genpact · London</div>
-  <h1>Enterprise AI — the <em>strategy</em> behind what's actually working.</h1>
-  <p class="hero-sub">I'm Laks Alagappan. I speak to executive and board-level audiences on scaling AI in the enterprise — drawing on hands-on experience building agentic systems and an EMBA from Bayes Business School. No hype. No theory. Just what separates AI programmes that deliver from the ones that stay stuck in pilot.</p>
-  <div class="hero-ctas">
-    <a href="#contact" class="btn-navy">Contact me</a>
-    <a href="#speaking" class="btn-ghost">See my topics →</a>
+  <div class="hero-text">
+    <div class="hero-eyebrow">VP, Technology · Genpact · London</div>
+    <h1>Enterprise AI — the <em>strategy</em> behind what's actually working.</h1>
+    <p class="hero-sub">I'm Laks Alagappan. I speak to executive and board-level audiences on scaling AI in the enterprise — drawing on hands-on experience building agentic systems and an EMBA from Bayes Business School. No hype. No theory. Just what separates AI programmes that deliver from the ones that stay stuck in pilot.</p>
+    <div class="hero-ctas">
+      <a href="#contact" class="btn-navy">Contact me</a>
+      <a href="#speaking" class="btn-ghost">See my topics →</a>
+    </div>
   </div>
+  <img src="laks.jpg" alt="Laks Alagappan" class="hero-photo">
 </div>
 
 <!-- CREDENTIALS BAR -->
