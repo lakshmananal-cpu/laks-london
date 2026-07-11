@@ -151,7 +151,7 @@ export default function Home() {
           <div className="venture">
             <span className="venture-tag">Regulatory Ops</span>
             <div>
-              <h3><a href="https://regulus-141kf5r13-laks-alagappans-projects.vercel.app/" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>Regulus ↗</a></h3>
+              <h3><a href="https://regulus-mauve.vercel.app/" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>Regulus ↗</a></h3>
               <p>An agentic compliance platform with specialised agents across AML/KYC, breach management, transaction reporting, regulatory change, filing, and policy — turning regulatory obligation into an automated, auditable workflow.</p>
             </div>
           </div>
