@@ -653,7 +653,7 @@ nav {
 /* ── RESPONSIVE ── */
 @media (max-width: 800px) {
   nav { padding: 0 20px; }
-  .nav-links li:not(:last-child) { display: none; }
+  .nav-links li:not(:last-child):not(.nav-keep) { display: none; }
   .hero { padding: 72px 20px 56px; grid-template-columns: 1fr; }
   .hero-photo { max-width: 200px; order: -1; }
   .creds-inner { padding: 20px; gap: 24px; }
