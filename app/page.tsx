@@ -186,13 +186,6 @@ export default function Home() {
           <div className="venture">
             <span className="venture-tag">Recognition</span>
             <div>
-              <h3>Forbes Technology Council Member</h3>
-              <p>Invite-only community for senior technology executives, recognising leadership in enterprise AI and technology strategy. I&apos;ll be contributing articles to Forbes covering scaling AI in the enterprise.</p>
-            </div>
-          </div>
-          <div className="venture">
-            <span className="venture-tag">Recognition</span>
-            <div>
               <h3>Best Technology Mentor Award</h3>
               <p>Migrant Leaders — recognising work mentoring career changers into technology.</p>
             </div>
