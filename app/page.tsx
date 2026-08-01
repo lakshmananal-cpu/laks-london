@@ -141,7 +141,7 @@ export default function Home() {
           <div className="venture">
             <span className="venture-tag">AI Platform</span>
             <div>
-              <h3><a href="https://azend-ai.vercel.app" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>Azend.ai ↗</a></h3>
+              <h3><a href="https://azend-ai.vercel.app" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>Azend.ai ↗</a> <span style={{ fontSize: 13, fontWeight: 400, color: 'var(--muted)' }}>(In Development)</span></h3>
               <p>AI-powered investment intelligence — bringing institutional-grade data, analytics, and agentic insight to modern investors.</p>
             </div>
           </div>
