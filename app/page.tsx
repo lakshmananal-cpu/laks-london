@@ -9,9 +9,8 @@ export default function Home() {
 
       <div className="hero">
         <div className="hero-text">
-          <div className="hero-eyebrow">VP, Technology · Genpact · London</div>
-          <h1>Enterprise AI — the <em>strategy</em> behind what&apos;s actually working.</h1>
-          <p className="hero-sub">I&apos;m Laks Alagappan. I write about scaling AI in the enterprise — drawing on hands-on experience building agentic systems, an EMBA from Bayes Business School, and a Data Strategy for Leaders credential from Imperial College Business School. I&apos;m also a Forbes Technology Council member. No hype. No theory. Just what separates AI programmes that deliver from the ones that stay stuck in pilot. I speak occasionally too, when the room&apos;s right.</p>
+          <h1>From AI Products to Enterprise Transformation to Industry Impact.</h1>
+          <p className="hero-sub">Three lenses on the same question — how AI actually creates value: as a builder, inside the enterprise, and across the wider ecosystem.</p>
           <div className="hero-ctas">
             <a href="/blog" className="btn-navy">Read my writing →</a>
             <a href="#contact" className="btn-ghost">Get in touch</a>
@@ -55,7 +54,7 @@ export default function Home() {
 
       <div className="wrap" id="about">
         <div className="sec-label">About</div>
-        <h2 className="sec-title">From AI Products to Enterprise Transformation to Industry Impact.</h2>
+        <h2 className="sec-title">Builder. Enterprise leader. Ecosystem thinker.</h2>
         <p className="sec-desc" style={{ maxWidth: '74ch' }}>I believe the future of AI must be viewed through three complementary lenses: the builder who creates technology, the enterprise leader who scales it responsibly, and the ecosystem thinker who understands its broader economic and societal impact.</p>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: 20, maxWidth: '74ch' }}>
