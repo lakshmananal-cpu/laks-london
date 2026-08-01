@@ -32,7 +32,7 @@ export default function Home() {
           </div>
           <div className="cred-item">
             <span className="cred-label">Expertise</span>
-            <span className="cred-value">Agentic AI & Enterprise Systems</span>
+            <span className="cred-value" style={{ maxWidth: 420, display: 'inline-block' }}>Capital Markets · Reference Data Management (Instruments, Parties) · Technology Program Management &amp; Delivery · Account Governance &amp; Growth · Agentic AI</span>
           </div>
           <div className="cred-item">
             <span className="cred-label">Certifications</span>
