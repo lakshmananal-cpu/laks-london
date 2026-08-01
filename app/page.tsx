@@ -133,6 +133,7 @@ export default function Home() {
               <div style={{ marginTop: 28, paddingTop: 24, borderTop: '1px solid var(--border)' }}>
                 <p className="themes-label">In the Press</p>
                 <p style={{ fontSize: 14.5, color: 'var(--muted)', lineHeight: 1.7, maxWidth: '74ch' }}>City St George&apos;s Alumni Network profiled this talk alongside my career transition from engineering into strategic technology leadership since my 2015 Executive MBA — including why human oversight remains critical to AI adoption and what&apos;s really holding enterprise programmes back. <a href="https://blogs.city.ac.uk/city-alumni/2026/07/08/lakshmanan-alagappan-executive-mba-2015-career-transitioning-in-the-information-age/" target="_blank" rel="noopener" style={{ color: 'var(--navy)', borderBottom: '1px solid var(--navy)', fontWeight: 500 }}>Read the interview ↗</a></p>
+                <p style={{ fontSize: 14.5, color: 'var(--muted)', lineHeight: 1.7, maxWidth: '74ch', marginTop: 14 }}>I&apos;m also a member of the Forbes Technology Council, an invite-only community for senior technology executives — and I&apos;ll be contributing articles to Forbes on enterprise AI and technology leadership.</p>
               </div>
             </div>
           </div>
@@ -186,7 +187,7 @@ export default function Home() {
             <span className="venture-tag">Recognition</span>
             <div>
               <h3>Forbes Technology Council Member</h3>
-              <p>Invite-only forum for senior technology executives, recognising leadership in enterprise AI and technology strategy.</p>
+              <p>Invite-only community for senior technology executives, recognising leadership in enterprise AI and technology strategy. I&apos;ll be contributing articles to Forbes covering scaling AI in the enterprise.</p>
             </div>
           </div>
           <div className="venture">
