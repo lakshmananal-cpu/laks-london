@@ -11,7 +11,7 @@ export default function Home() {
         <div className="hero-text">
           <div className="hero-eyebrow">VP, Technology · Genpact · London</div>
           <h1>Enterprise AI — the <em>strategy</em> behind what&apos;s actually working.</h1>
-          <p className="hero-sub">I&apos;m Laks Alagappan. I write about scaling AI in the enterprise — drawing on hands-on experience building agentic systems, an EMBA from Bayes Business School, and an AI &amp; Machine Learning credential from Imperial College Business School. No hype. No theory. Just what separates AI programmes that deliver from the ones that stay stuck in pilot. I speak occasionally too, when the room&apos;s right.</p>
+          <p className="hero-sub">I&apos;m Laks Alagappan. I write about scaling AI in the enterprise — drawing on hands-on experience building agentic systems, an EMBA from Bayes Business School, and a Data Strategy for Leaders credential from Imperial College Business School. I&apos;m also a Forbes Technology Council member. No hype. No theory. Just what separates AI programmes that deliver from the ones that stay stuck in pilot. I speak occasionally too, when the room&apos;s right.</p>
           <div className="hero-ctas">
             <a href="/blog" className="btn-navy">Read my writing →</a>
             <a href="#contact" className="btn-ghost">Get in touch</a>
@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div className="cred-item">
             <span className="cred-label">Education</span>
-            <span className="cred-value">Bayes EMBA · Imperial College AI &amp; ML</span>
+            <span className="cred-value">Bayes EMBA · Imperial College Data Strategy</span>
           </div>
           <div className="cred-item">
             <span className="cred-label">Expertise</span>
@@ -37,6 +37,10 @@ export default function Home() {
           <div className="cred-item">
             <span className="cred-label">Certifications</span>
             <span className="cred-value">AWS · PMP · Six Sigma</span>
+          </div>
+          <div className="cred-item">
+            <span className="cred-label">Recognition</span>
+            <span className="cred-value">Forbes Technology Council</span>
           </div>
           <div className="cred-item">
             <span className="cred-label">Readers</span>
@@ -178,6 +182,13 @@ export default function Home() {
         <p className="sec-desc">The same belief that shapes the writing and the ventures — people before platforms — carries into mentoring.</p>
 
         <div className="ventures-list">
+          <div className="venture">
+            <span className="venture-tag">Recognition</span>
+            <div>
+              <h3>Forbes Technology Council Member</h3>
+              <p>Invite-only forum for senior technology executives, recognising leadership in enterprise AI and technology strategy.</p>
+            </div>
+          </div>
           <div className="venture">
             <span className="venture-tag">Recognition</span>
             <div>
