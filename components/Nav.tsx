@@ -5,6 +5,7 @@ export default function Nav() {
     <nav>
       <Link href="/" className="nav-brand">Laks Alagappan</Link>
       <ul className="nav-links">
+        <li><Link href="/#about">About</Link></li>
         <li><Link href="/#speaking">Writing</Link></li>
         <li className="nav-keep"><Link href="/blog">Blog</Link></li>
         <li><Link href="/#talks">Speaking</Link></li>

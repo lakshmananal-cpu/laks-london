@@ -53,6 +53,29 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="wrap" id="about">
+        <div className="sec-label">About</div>
+        <h2 className="sec-title">From AI Products to Enterprise Transformation to Industry Impact.</h2>
+        <p className="sec-desc" style={{ maxWidth: '74ch' }}>I believe the future of AI must be viewed through three complementary lenses: the builder who creates technology, the enterprise leader who scales it responsibly, and the ecosystem thinker who understands its broader economic and societal impact.</p>
+
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 20, maxWidth: '74ch' }}>
+          <p style={{ fontSize: 15, color: 'var(--muted)', lineHeight: 1.75 }}>I&apos;m Laks Alagappan, an Executive MBA graduate from Bayes Business School, London, holder of the Data Strategy for Leaders credential from Imperial College Business School, and a member of the Forbes Technology Council.</p>
+          <p style={{ fontSize: 15, color: 'var(--muted)', lineHeight: 1.75 }}>With over 25 years of experience leading large-scale technology transformation programmes across global financial institutions, I specialise in enterprise AI, software engineering, and business-led technology transformation.</p>
+          <p style={{ fontSize: 15, color: 'var(--muted)', lineHeight: 1.75 }}>Alongside my corporate leadership experience, I have designed and built several AI-powered platforms and products, including Skillopedia, Meridian, Regulus, and others listed below. These initiatives have given me hands-on experience in applying AI to solve real-world business challenges, from enterprise productivity and knowledge management to workflow automation and intelligent decision-making.</p>
+          <p style={{ fontSize: 15, color: 'var(--muted)', lineHeight: 1.75 }}>I also write about leadership, technology, and innovation. One of my recent articles, &ldquo;26 Years On: When Ecosystems Don&apos;t Just Support Growth—They Compound It,&rdquo; explores the importance of professional ecosystems, mentorship, and lifelong learning in shaping successful technology careers and driving long-term impact.</p>
+          <p style={{ fontSize: 15, color: 'var(--muted)', lineHeight: 1.75 }}>My thought leadership focuses on the practical application of AI within large enterprises, particularly where technology, governance, engineering, and organisational transformation intersect.</p>
+        </div>
+
+        <div style={{ marginTop: 40, paddingTop: 32, borderTop: '1px solid var(--border)' }}>
+          <p className="themes-label">Topics I&apos;m Currently Writing About</p>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+            <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ How Will the CIO Organisation Transform in the Age of AI?</p>
+            <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ AI Governance for the Age of Agentic AI</p>
+            <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ Is 50% Software Development Productivity with AI a Pipe Dream?</p>
+          </div>
+        </div>
+      </div>
+
       <div className="wrap" id="speaking">
         <div className="sec-label">Essays & Writing</div>
         <h2 className="sec-title">What I write about.</h2>
