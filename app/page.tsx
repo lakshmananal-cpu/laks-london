@@ -67,63 +67,12 @@ export default function Home() {
 
         <div style={{ marginTop: 40, paddingTop: 32, borderTop: '1px solid var(--border)' }}>
           <p className="themes-label">Topics I&apos;m Currently Writing About</p>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 20 }}>
             <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ How Will the CIO Organisation Transform in the Age of AI?</p>
             <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ AI Governance for the Age of Agentic AI</p>
             <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ Is 50% Software Development Productivity with AI a Pipe Dream?</p>
           </div>
-        </div>
-      </div>
-
-      <div className="wrap" id="speaking">
-        <div className="sec-label">Essays & Writing</div>
-        <h2 className="sec-title">What I write about.</h2>
-        <p className="sec-desc">Four themes I keep coming back to when writing about the AI transition — strategy grounded in production experience, not theory. Read the full posts on the <a href="/blog" style={{ color: 'var(--navy)', borderBottom: '1px solid var(--navy)' }}>blog →</a></p>
-
-        <div className="topics-grid">
-          <div className="topic-card">
-            <div className="topic-num">01</div>
-            <h3>The Agentic Enterprise</h3>
-            <p>AI has moved beyond chatbots and point solutions. Agentic systems — AI that can plan, reason, and orchestrate multi-step workflows — are reshaping how enterprises operate. I write about what that shift means practically: new capabilities unlocked, new governance challenges created, and what separates organisations that will lead from those that will follow.</p>
-            <div className="topic-tags">
-              <span className="pill">Essay</span>
-              <span className="pill">Strategy</span>
-              <span className="pill pill-amber">Ongoing series</span>
-            </div>
-          </div>
-
-          <div className="topic-card">
-            <div className="topic-num">02</div>
-            <h3>AI Governance & Trust</h3>
-            <p>As AI autonomy increases — from human-in-the-loop to human-on-the-loop — governance can&apos;t be an afterthought. Drawing on hands-on experience building production AI systems, I make the case for establishing accountability and oversight before regulation forces the issue, and what that actually looks like inside a real organisation.</p>
-            <div className="topic-tags">
-              <span className="pill">Essay</span>
-              <span className="pill">Governance</span>
-              <span className="pill pill-amber">Ongoing series</span>
-            </div>
-          </div>
-
-          <div className="topic-card">
-            <div className="topic-num">03</div>
-            <h3>From Models to Systems</h3>
-            <p>Having access to an AI model and running an AI system at enterprise scale are very different things. I write about what the transition actually requires — the data foundations, integration architecture, evaluation frameworks, and operational disciplines that turn experiments into production-grade capability that delivers measurable business value.</p>
-            <div className="topic-tags">
-              <span className="pill">Technical</span>
-              <span className="pill">Operations</span>
-              <span className="pill pill-amber">Ongoing series</span>
-            </div>
-          </div>
-
-          <div className="topic-card">
-            <div className="topic-num">04</div>
-            <h3>The Future of Work & AI</h3>
-            <p>What does AI mean for talent, skills, and the workforce? Through the lens of someone building AI systems and an education marketplace, I write the honest version of that question — not the utopian or dystopian extremes, but the practical reality of what changes, what stays, and what leaders need to do to bring people with them.</p>
-            <div className="topic-tags">
-              <span className="pill">Leadership</span>
-              <span className="pill">Talent</span>
-              <span className="pill pill-amber">Ongoing series</span>
-            </div>
-          </div>
+          <a href="/blog" style={{ color: 'var(--navy)', borderBottom: '1px solid var(--navy)', fontSize: 15, fontWeight: 500 }}>Read the full posts on the blog →</a>
         </div>
       </div>
 
