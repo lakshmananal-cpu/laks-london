@@ -113,9 +113,16 @@ export default function Home() {
       <div className="wrap" id="ventures">
         <div className="sec-label">What I&apos;m Building</div>
         <h2 className="sec-title">The practitioner&apos;s proof.</h2>
-        <p className="sec-desc">I speak from experience because I build. Four ventures at the intersection of AI, data, compliance, and human potential.</p>
+        <p className="sec-desc">I speak from experience because I build. A growing portfolio of agentic platforms at the intersection of AI, data, compliance, and human potential — mapped in full in Atlas below.</p>
 
         <div className="ventures-list">
+          <div className="venture">
+            <span className="venture-tag">Portfolio Index</span>
+            <div>
+              <h3><a href="https://atlas-gamma-teal.vercel.app" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>Atlas ↗</a></h3>
+              <p>An index of the full agentic portfolio — 12 platforms spanning capital markets, wealth management, lending, compliance and the data backbone that ties them together, with a block diagram of how it all fits into the wider financial-services ecosystem.</p>
+            </div>
+          </div>
           <div className="venture">
             <span className="venture-tag">Agentic Platform</span>
             <div>
