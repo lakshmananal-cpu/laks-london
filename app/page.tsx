@@ -75,6 +75,29 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="wrap" id="press">
+        <div className="sec-label">In the Press</div>
+        <h2 className="sec-title">Covered, quoted, contributed.</h2>
+        <p className="sec-desc">Where my writing and speaking have shown up beyond my own site.</p>
+
+        <div className="ventures-list">
+          <div className="venture">
+            <span className="venture-tag">Panel Contribution</span>
+            <div>
+              <h3><a href="https://www.forbes.com/councils/forbestechcouncil/2026/08/14/higher-level-skills-software-engineers-need-in-the-ai-era/" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>Forbes Technology Council ↗</a></h3>
+              <p>I&apos;m a member of the Forbes Technology Council, an invite-only community for senior technology executives, and contributed to their August 2026 Expert Panel on the higher-level skills software engineers need in the AI era — on why the differentiator is shifting to systems thinking: defining the right problems, designing resilient architectures, governing AI agents, and connecting technology to business outcomes.</p>
+            </div>
+          </div>
+          <div className="venture">
+            <span className="venture-tag">Alumni Feature</span>
+            <div>
+              <h3><a href="https://blogs.city.ac.uk/city-alumni/2026/07/08/lakshmanan-alagappan-executive-mba-2015-career-transitioning-in-the-information-age/" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>City St George&apos;s Alumni Network ↗</a></h3>
+              <p>Profiled alongside my career transition from engineering into strategic technology leadership since my 2015 Executive MBA and the Bayes Alumni Forum talk below — including why human oversight remains critical to AI adoption and what&apos;s really holding enterprise programmes back.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="alt-bg">
         <div className="wrap" id="talks">
           <div className="sec-label">Also On Stage</div>
@@ -99,11 +122,6 @@ export default function Home() {
                 <div className="theme-item"><div className="theme-check">✓</div><span>Creating AI fluency across the workforce</span></div>
                 <div className="theme-item"><div className="theme-check">✓</div><span>Establishing governance ahead of regulation</span></div>
                 <div className="theme-item"><div className="theme-check">✓</div><span>The shift from ML → GenAI → Agentic AI</span></div>
-              </div>
-              <div style={{ marginTop: 28, paddingTop: 24, borderTop: '1px solid var(--border)' }}>
-                <p className="themes-label">In the Press</p>
-                <p style={{ fontSize: 14.5, color: 'var(--muted)', lineHeight: 1.7, maxWidth: '74ch' }}>City St George&apos;s Alumni Network profiled this talk alongside my career transition from engineering into strategic technology leadership since my 2015 Executive MBA — including why human oversight remains critical to AI adoption and what&apos;s really holding enterprise programmes back. <a href="https://blogs.city.ac.uk/city-alumni/2026/07/08/lakshmanan-alagappan-executive-mba-2015-career-transitioning-in-the-information-age/" target="_blank" rel="noopener" style={{ color: 'var(--navy)', borderBottom: '1px solid var(--navy)', fontWeight: 500 }}>Read the interview ↗</a></p>
-                <p style={{ fontSize: 14.5, color: 'var(--muted)', lineHeight: 1.7, maxWidth: '74ch', marginTop: 14 }}>I&apos;m also a member of the Forbes Technology Council, an invite-only community for senior technology executives, and contributed to their August 2026 Expert Panel on the higher-level skills software engineers need in the AI era — on why the differentiator is shifting to systems thinking: defining the right problems, designing resilient architectures, governing AI agents, and connecting technology to business outcomes. <a href="https://www.forbes.com/councils/forbestechcouncil/2026/08/14/higher-level-skills-software-engineers-need-in-the-ai-era/" target="_blank" rel="noopener" style={{ color: 'var(--navy)', borderBottom: '1px solid var(--navy)', fontWeight: 500 }}>Read on Forbes ↗</a></p>
               </div>
             </div>
           </div>
