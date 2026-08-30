@@ -59,7 +59,7 @@ export default function Home() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: 20, maxWidth: '74ch' }}>
           <p style={{ fontSize: 15, color: 'var(--muted)', lineHeight: 1.75 }}>I&apos;m Laks Alagappan, an Executive MBA graduate from Bayes Business School, London, holder of the Data Strategy for Leaders credential from Imperial College Business School, and a member of the Forbes Technology Council.</p>
           <p style={{ fontSize: 15, color: 'var(--muted)', lineHeight: 1.75 }}>With over 25 years of experience leading large-scale technology transformation programmes across global financial institutions, I specialise in enterprise AI, software engineering, and business-led technology transformation.</p>
-          <p style={{ fontSize: 15, color: 'var(--muted)', lineHeight: 1.75 }}>Alongside my corporate leadership experience, I have designed and built several AI-powered platforms and products, including Skillopedia, Meridian, Regulus, and others listed below. These initiatives have given me hands-on experience in applying AI to solve real-world business challenges, from enterprise productivity and knowledge management to workflow automation and intelligent decision-making.</p>
+          <p style={{ fontSize: 15, color: 'var(--muted)', lineHeight: 1.75 }}>Alongside my corporate leadership experience, I have designed and built several AI-powered platforms and products, including Skillopedia and others listed below. These initiatives have given me hands-on experience in applying AI to solve real-world business challenges, from enterprise productivity and knowledge management to workflow automation and intelligent decision-making.</p>
           <p style={{ fontSize: 15, color: 'var(--muted)', lineHeight: 1.75 }}>I also write about technology, and innovation ecosystems. One of my recent articles, <a href="/blog/26-years-on-when-ecosystems-dont-just-support-innovation-they-compound-it" style={{ color: 'var(--navy)', borderBottom: '1px solid var(--navy)' }}>&ldquo;26 Years On: When Ecosystems Don&apos;t Just Support Growth—They Compound It&rdquo;</a>, explores the importance of professional ecosystems, mentorship, and lifelong learning in driving long-term impact.</p>
           <p style={{ fontSize: 15, color: 'var(--muted)', lineHeight: 1.75 }}>My thought leadership focuses on the practical application of AI within large enterprises, particularly where technology, governance, engineering, and organisational transformation intersect.</p>
         </div>
@@ -142,31 +142,10 @@ export default function Home() {
             </div>
           </div>
           <div className="venture">
-            <span className="venture-tag">Agentic Platform</span>
-            <div>
-              <h3><a href="https://meridian-nine-mauve.vercel.app/agents" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>Meridian ↗</a></h3>
-              <p>An agentic data platform with specialised agents for quality, lineage, enrichment, golden-record mastering, and exception management — orchestrated so systems can reason over data, not just process it.</p>
-            </div>
-          </div>
-          <div className="venture">
-            <span className="venture-tag">Regulatory Ops</span>
-            <div>
-              <h3><a href="https://regulus-mauve.vercel.app/" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>Regulus ↗</a></h3>
-              <p>An agentic compliance platform with specialised agents across AML/KYC, breach management, transaction reporting, regulatory change, filing, and policy — turning regulatory obligation into an automated, auditable workflow.</p>
-            </div>
-          </div>
-          <div className="venture">
             <span className="venture-tag">Marketplace</span>
             <div>
               <h3><a href="https://skillopedia.app" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>Skillopedia ↗</a></h3>
               <p>A mentor–learner marketplace connecting people with mentors across 300+ specialisations. The same belief that powers the technology work: people before platforms.</p>
-            </div>
-          </div>
-          <div className="venture">
-            <span className="venture-tag">AI Platform</span>
-            <div>
-              <h3><a href="https://azend-ai.vercel.app" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>Azend.ai ↗</a> <span style={{ fontSize: 13, fontWeight: 400, color: 'var(--muted)' }}>(In Development)</span></h3>
-              <p>AI-powered investment intelligence — bringing institutional-grade data, analytics, and agentic insight to modern investors.</p>
             </div>
           </div>
         </div>
