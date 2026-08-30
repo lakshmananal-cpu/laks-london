@@ -138,7 +138,7 @@ export default function Home() {
             <span className="venture-tag">Portfolio Index</span>
             <div>
               <h3><a href="https://atlas-gamma-teal.vercel.app" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>Atlas ↗</a></h3>
-              <p>An index of the full agentic portfolio — 12 platforms spanning capital markets, wealth management, lending, compliance and the data backbone that ties them together, with a block diagram of how it all fits into the wider financial-services ecosystem.</p>
+              <p>An index of the full agentic portfolio — 30 platforms across six business divisions (Capital Markets & Investment Banking, Retail Banking, Insurance, Compliance & Financial Crime, Technology & Data, and Support Functions), with an interactive map of how it all fits into the wider financial-services ecosystem.</p>
             </div>
           </div>
           <div className="venture">
