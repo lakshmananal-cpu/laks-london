@@ -82,6 +82,13 @@ export default function Home() {
 
         <div className="ventures-list">
           <div className="venture">
+            <span className="venture-tag">Council Post</span>
+            <div>
+              <h3><a href="https://www.forbes.com/councils/forbestechcouncil/2026/09/03/software-engineering-productivity-youre-measuring-the-wrong-thing/" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>Forbes Technology Council ↗</a></h3>
+              <p>In my September 2026 byline for Forbes Technology Council, I argue that most organisations measure software engineering productivity wrong — fixating on narrow coding metrics like lines generated or commit speed while ignoring requirements, testing, security, and deployment. AI can accelerate code generation, but it amplifies existing engineering discipline rather than replacing it; the metric that matters isn&apos;t how fast developers write code, it&apos;s how much faster and more reliably the whole engineering system delivers real business outcomes.</p>
+            </div>
+          </div>
+          <div className="venture">
             <span className="venture-tag">Panel Contribution</span>
             <div>
               <h3><a href="https://www.forbes.com/councils/forbestechcouncil/2026/08/14/higher-level-skills-software-engineers-need-in-the-ai-era/" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>Forbes Technology Council ↗</a></h3>
