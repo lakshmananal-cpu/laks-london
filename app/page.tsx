@@ -65,11 +65,14 @@ export default function Home() {
         </div>
 
         <div style={{ marginTop: 40, paddingTop: 32, borderTop: '1px solid var(--border)' }}>
-          <p className="themes-label">Topics I&apos;m Currently Writing About</p>
+          <p className="themes-label">Topics I&apos;m Exploring for Future Articles</p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 20 }}>
             <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ How Will the CIO Organisation Transform in the Age of AI?</p>
             <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ Governing Agentic AI in Banking: From Model Risk to Digital Workforce Governance</p>
             <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ The Agent Management Function in the CIO Organization</p>
+            <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ Beyond Bronze, Silver And Gold: Is Your Data Ready For AI Agents?</p>
+            <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ From Data Pipelines To Decision Pipelines: Rethinking The Enterprise Data Platform</p>
+            <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ Can Your Data Platform Explain An AI Agent&apos;s Decision?</p>
           </div>
           <a href="/blog" style={{ color: 'var(--navy)', borderBottom: '1px solid var(--navy)', fontSize: 15, fontWeight: 500 }}>Read the full posts on the blog →</a>
         </div>
