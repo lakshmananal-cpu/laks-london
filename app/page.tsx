@@ -68,7 +68,8 @@ export default function Home() {
           <p className="themes-label">Topics I&apos;m Currently Writing About</p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 20 }}>
             <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ How Will the CIO Organisation Transform in the Age of AI?</p>
-            <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ AI Governance for the Age of Agentic AI</p>
+            <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ Governing Agentic AI in Banking: From Model Risk to Digital Workforce Governance</p>
+            <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ The Agent Management Function in the CIO Organization</p>
           </div>
           <a href="/blog" style={{ color: 'var(--navy)', borderBottom: '1px solid var(--navy)', fontSize: 15, fontWeight: 500 }}>Read the full posts on the blog →</a>
         </div>
