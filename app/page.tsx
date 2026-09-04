@@ -69,7 +69,6 @@ export default function Home() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 20 }}>
             <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ How Will the CIO Organisation Transform in the Age of AI?</p>
             <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ AI Governance for the Age of Agentic AI</p>
-            <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ Is 50% Software Development Productivity with AI a Pipe Dream?</p>
           </div>
           <a href="/blog" style={{ color: 'var(--navy)', borderBottom: '1px solid var(--navy)', fontSize: 15, fontWeight: 500 }}>Read the full posts on the blog →</a>
         </div>
