@@ -69,7 +69,6 @@ export default function Home() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 20 }}>
             <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ How Will the CIO Organisation Transform in the Age of AI?</p>
             <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ Governing Agentic AI in Banking: From Model Risk to Digital Workforce Governance</p>
-            <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ The Agent Management Function in the CIO Organization</p>
             <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ Beyond Bronze, Silver And Gold: Is Your Data Ready For AI Agents?</p>
             <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ From Data Pipelines To Decision Pipelines: Rethinking The Enterprise Data Platform</p>
             <p style={{ fontSize: 15, color: 'var(--ink)', lineHeight: 1.6 }}>→ Can Your Data Platform Explain An AI Agent&apos;s Decision?</p>
@@ -84,6 +83,13 @@ export default function Home() {
         <p className="sec-desc">Where my writing and speaking have shown up beyond my own site.</p>
 
         <div className="ventures-list">
+          <div className="venture">
+            <span className="venture-tag">Council Post</span>
+            <div>
+              <h3><a href="https://www.forbes.com/councils/forbestechcouncil/2026/11/06/the-agent-management-function-a-new-capability-for-the-ai-native-cio/" target="_blank" rel="noopener" style={{ color: 'inherit', borderBottom: '1px solid var(--border)' }}>Forbes Technology Council ↗</a></h3>
+              <p>In my November 2026 byline for Forbes Technology Council, I propose an Agent Management Function — a new capability for the AI-native CIO to coordinate, govern and monitor enterprise AI agents, with clear ownership, access controls and human oversight. I advocate a federated model that combines CIO-led platforms and standards with business-led delivery, so organisations can scale agentic AI while maintaining accountability and measurable value.</p>
+            </div>
+          </div>
           <div className="venture">
             <span className="venture-tag">Council Post</span>
             <div>
